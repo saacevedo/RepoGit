@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "task-mvp",
-    "slug": "task-mvp",
+    "name": "Repo-Git",
+    "slug": "Repo-Git",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#21450dff"
     },
     "ios": {
       "supportsTablet": true
@@ -18,7 +18,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#21450dff"
       },
       "edgeToEdgeEnabled": true
     },

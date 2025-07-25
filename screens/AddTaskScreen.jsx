@@ -40,7 +40,7 @@ export default function AddTaskScreen({ navigation, route }) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Crear Nueva Tarea</Text>
+      <Text style={styles.header}>Agregar nuevo numero</Text>
 
       <TextInput
         style={styles.input}
@@ -57,7 +57,7 @@ export default function AddTaskScreen({ navigation, route }) {
 
       <View style={styles.buttons}>
         <Button
-          title="Agregar tarea"
+          title="Agregar numero"
           onPress={handleAdd}
           disabled={!isValid}
         />

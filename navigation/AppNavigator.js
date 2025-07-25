@@ -10,7 +10,7 @@ export default function AppNavigator() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Tasks" component={TaskListScreen} />
+        <Stack.Screen name="Directorio" component={TaskListScreen} />
         <Stack.Screen name="AddTask" component={AddTaskScreen} />
       </Stack.Navigator>
     </NavigationContainer>

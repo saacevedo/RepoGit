@@ -36,23 +36,23 @@ export default function TaskListScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <Text>Task Master</Text>
+      <Text>Mis contactos</Text>
       {/* Fila de botones de filtro */}
       <View style={styles.filterRow}>
         <Button
-          title="Todas"
+          title="Contactos"
           onPress={() => setFilterMode('all')}
-          color={filterMode === 'all' ? '#007AFF' : undefined}
+          color={filterMode === 'all' ? '#21450dff' : undefined}
         />
         <Button
           title="Pendientes"
           onPress={() => setFilterMode('pending')}
-          color={filterMode === 'pending' ? '#007AFF' : undefined}
+          color={filterMode === 'pending' ? '#21450dff' : undefined}
         />
         <Button
           title="Completadas"
           onPress={() => setFilterMode('completed')}
-          color={filterMode === 'completed' ? '#007AFF' : undefined}
+          color={filterMode === 'completed' ? '#21450dff' : undefined}
         />
       </View>
 
