@@ -1,41 +1,14 @@
-# Task MVP
+# Contactos
 
-Este proyecto es un **MVP de lista de tareas** construido con React Native y Expo, pensado para seguir el temario de tu curso y poner en práctica desde la Sesión 1.
+Este proyecto es un **MVP de contactos telefonicos** construido con React Native y Expo.
 
----
+## Instalacion de mi proyecto local 
 
-## Requisitos previos
-
-- **Node.js** v14 o superior
-- **npm** (incluido con Node.js) o **Yarn**
-- **Android Studio** (AVD) y/o **Xcode** (Simulator) si vas a probar en emuladores
-- **Expo Go** en tu dispositivo móvil (opcional, para pruebas en físico)
+- **Node.js** v22
+- **npm** (incluido con Node.js)
+- **Android Studio** (AVD) y/o (Simulator)
+- **Expo Go** dispositivo móvil
 - **Windows PowerShell**
-  - En algunas máquinas puede haber restricciones de **Execution Policy** que impiden ejecutar scripts (`npx`, `npm`).
-  - Si recibes un error como _“execution of scripts is disabled on this system”_, abre PowerShell **como Administrador** y ejecuta:
-    ```powershell
-    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-    ```
-    Esto aplica solo para la sesión abierta y te permitirá correr los comandos de `npx` y `npm` sin cambiar la política global.
-  - **Si después de esto sigues obteniendo el mismo error**, prueba alguna de estas opciones:
-    - Cambia la política para el usuario actual:
-      ```powershell
-      Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force
-      ```
-    - Lanza el comando directamente desde `cmd`:
-      ```powershell
-      cmd /C "npx create-expo-app@latest task-mvp"
-      ```
-    - Invoca el script batch de npx:
-      ```powershell
-      npx.cmd create-expo-app@latest task-mvp
-      ```
-    - Alternativamente, si tienes Yarn instalado, puedes usar:
-      ```bash
-      yarn create expo-app task-mvp
-      ```
-
----
 
 ## Instalación inicial
 
