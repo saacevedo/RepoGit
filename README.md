@@ -7,6 +7,7 @@ Este proyecto es un **MVP de contactos telefonicos** construido con React Native
 - **Node.js** v22
 - **npm** (incluido con Node.js)
 - **Android Studio** (AVD) y/o (Simulator)
+   - Instalacion de Android Studio https://docs.expo.dev/workflow/android-studio-emulator/ 
 - **Expo Go** dispositivo móvil
 - **Windows PowerShell**
 
