@@ -12,8 +12,14 @@ export default function TaskListScreen({ navigation }) {
   const [tasks, setTasks] = useState([
     { id: 1, title: 'Comprar leche', completed: false },
     { id: 2, title: 'Enviar email', completed: true },
-    { id: 3, title: 'Leer documentación', completed: false },
+    { id: 3, title: 'Leer un libro', completed: false },
   ]);
+
+  const [contacts, setContacts] = useState([
+    { id: 1, name: 'Armando Gonzales', phone: '3005946958' },
+    { id: 2, name: 'Miranda Arteaga', phone: '3018545878' }, 
+  ]);
+
   const [filterMode, setFilterMode] = useState('all'); // 'all' | 'pending' | 'completed'
 
   // Función para añadir una nueva tarea al estado
@@ -36,11 +42,11 @@ export default function TaskListScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <Text>Mis contactos</Text>
+      <Text>Mis Tareas</Text>
       {/* Fila de botones de filtro */}
       <View style={styles.filterRow}>
         <Button
-          title="Contactos"
+          title="Tareas"
           onPress={() => setFilterMode('all')}
           color={filterMode === 'all' ? '#21450dff' : undefined}
         />
