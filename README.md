@@ -14,7 +14,7 @@ Este proyecto es un **MVP de contactos telefonicos** construido con React Native
 
 
 ## Estructura del proyecto
-task-mvp/
+RepoGit/
 ├─ App.js
 
 ├─ app.json
@@ -24,6 +24,8 @@ task-mvp/
 ├─ node_modules/
 
 ├─ assets/
+
+   └─ icon.png Cambio de icono
 
 ├─ navigation/
 
@@ -35,6 +37,8 @@ task-mvp/
 
 │  └─ AddTaskScreen.jsx
 
+│  └─AddContactScreen.jsx
+
 └─ components/
 
    └─ TaskItem.jsx
@@ -42,13 +46,15 @@ task-mvp/
 
 - App.js: Punto de entrada. Importa y renderiza AppNavigator.
 
-- navigation/AppNavigator.js: Stack de pantallas (Lista y Crear tarea).
+- navigation/AppNavigator.js: Stack de pantallas (Lista Crear tarea, Crea contacto).
 
 - screens/
 
--- TaskListScreen.js: Muestra el listado de tareas.
+-- TaskListScreen.jsx: Muestra el listado de tareas.
 
--- AddTaskScreen.js: Formulario para agregar nuevas tareas.
+-- AddTaskScreen.jsx: Formulario para agregar nuevas tareas.
+
+-- AddContactScreen.jsx: Muestra el listado de contactos
 
 -- components/TaskItem.js: Componente para renderizar cada tarea.
 
