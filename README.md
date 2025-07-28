@@ -11,36 +11,8 @@ Este proyecto es un **MVP de contactos telefonicos** construido con React Native
 - **Expo Go** dispositivo móvil
 - **Windows PowerShell**
 
-## Instalación inicial
-
-> ❗️ **Expo CLI** global está deprecado. Usaremos `create-expo-app` vía `npx`.
-
-```bash
-# 1. Crea la plantilla Expo
-npx create-expo-app@latest task-mvp --template blank
-
-# 2. Entra al directorio del proyecto
-cd task-mvp
-
-# 3. Instala dependencias
-npm install
-# o
-yarn
-
-## Dependendencias principales
-
-# React Navigation
-npm install @react-navigation/native @react-navigation/stack
-
-# Peers de React Navigation
-npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
-
-# AsyncStorage para persistencia
-npm install @react-native-async-storage/async-storage
-
-
 ## Estructura del proyecto
-task-mvp/
+RepoGit/
 ├─ App.js
 
 ├─ app.json
@@ -50,6 +22,8 @@ task-mvp/
 ├─ node_modules/
 
 ├─ assets/
+
+   └─ icon.png CAMBIO DE IMAGEN
 
 ├─ navigation/
 
@@ -61,6 +35,8 @@ task-mvp/
 
 │  └─ AddTaskScreen.jsx
 
+|  └─ AddContactScreen.jsx
+
 └─ components/
 
    └─ TaskItem.jsx
@@ -68,13 +44,15 @@ task-mvp/
 
 - App.js: Punto de entrada. Importa y renderiza AppNavigator.
 
-- navigation/AppNavigator.js: Stack de pantallas (Lista y Crear tarea).
+- navigation/AppNavigator.js: Stack de pantallas (Lista Crear tarea, Crea nuevo Contacto + numero telefonico).
 
 - screens/
 
+-- AddContactScreen.jsx: Muestra la lista de Contactos + el numero
+
 -- TaskListScreen.js: Muestra el listado de tareas.
 
--- AddTaskScreen.js: Formulario para agregar nuevas tareas.
+-- AddTaskScreen.js: Formulario para agregar nuevas tareas y nuevos contactos
 
 -- components/TaskItem.js: Componente para renderizar cada tarea.
 
