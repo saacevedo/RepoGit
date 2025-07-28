@@ -11,32 +11,6 @@ Este proyecto es un **MVP de contactos telefonicos** construido con React Native
 - **Expo Go** dispositivo móvil
 - **Windows PowerShell**
 
-## Instalación inicial
-
-> ❗️ **Expo CLI** global está deprecado. Usaremos `create-expo-app` vía `npx`.
-
-```bash
-# 1. Crea la plantilla Expo
-npx create-expo-app@latest task-mvp --template blank
-
-# 2. Entra al directorio del proyecto
-cd task-mvp
-
-# 3. Instala dependencias
-npm install
-# o
-yarn
-
-## Dependendencias principales
-
-# React Navigation
-npm install @react-navigation/native @react-navigation/stack
-
-# Peers de React Navigation
-npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
-
-# AsyncStorage para persistencia
-npm install @react-native-async-storage/async-storage
 
 
 ## Estructura del proyecto
