@@ -25,8 +25,6 @@ RepoGit/
 
 ├─ assets/
 
-   └─ icon.png Cambio de icono
-
 ├─ navigation/
 
 │  └─ AppNavigator.jsx
