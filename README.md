@@ -17,7 +17,8 @@ Este proyecto es un **MVP de contactos telefonicos** construido con React Native
     - vamos a la carpeta raiz del proyecto
     - Sosteniendo la tecla SHIFT y click derecho
     - Abrimos la opcion de PowerShell
-    - Copiamos el comando **code .**
+    - Copiamos el comando **code .** para iniciar VisualStudio
+    - Con el Comando **npm start** Generamos el codigo QR, el cual scaneamos en nuestra app EXPOGO
 
 ## Estructura del proyecto
 RepoGit/
