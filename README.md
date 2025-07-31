@@ -12,7 +12,7 @@ Este proyecto es un **MVP de contactos telefonicos** construido con React Native
 - **Windows PowerShell**
 
 > [!IMPORTANT]
-## Instalacion de mi proyecto local 
+> ## Instalacion de mi proyecto local 
 
  - Al momento de ejecutar el proyecto
     - vamos a la carpeta raiz del proyecto
