@@ -23,6 +23,21 @@ Este proyecto es un **MVP de contactos telefonicos** construido con React Native
 > [!NOTE]
 > Se trabaja sobre el proyecto compartido del teacher para guiarme.
 
+
+> [!NOTE]
+> Este proyecto utiliza Python 3.
+
+> [!TIP]
+> Utiliza un entorno virtual para gestionar las dependencias.
+
+> [!IMPORTANT]
+> La versión actual requiere Node.js 18 o superior.
+
+> [!WARNING]
+> No ejecutes este script con permisos de administrador.
+
+> [!CAUTION]
+> Borrar la carpeta `data` eliminará todos los datos.
 ## Estructura del proyecto
 RepoGit/
 ├─ App.js
