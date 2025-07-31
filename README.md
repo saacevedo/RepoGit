@@ -13,11 +13,11 @@ Este proyecto es un **MVP de contactos telefonicos** construido con React Native
 
 ## Instalacion de mi proyecto local 
 
- -Al momento de ejecutar el proyecto
-    -vamos a la carpeta raiz del proyecto
-    -Sosteniendo la tecla SHIFT y click derecho
-    -Abrimos la opcion de PowerShell
-    -Copiamos el comando **code .**
+ - Al momento de ejecutar el proyecto
+    - vamos a la carpeta raiz del proyecto
+    - Sosteniendo la tecla SHIFT y click derecho
+    - Abrimos la opcion de PowerShell
+    - Copiamos el comando **code .**
 
 ## Estructura del proyecto
 RepoGit/
