@@ -27,6 +27,11 @@ export default function TaskListScreen({ navigation }) {
     setTasks(prev => [...prev, task]);
   };
 
+  // Funcion para añadir un nuevo contacto
+  const addContact = (contact) => {
+    setContacts(prev => [...prev, contact]);
+  };
+
   // Derivar listado según filtro
   let displayedTasks;
   switch (filterMode) {
@@ -86,17 +91,42 @@ export default function TaskListScreen({ navigation }) {
         title="Crear nueva tarea"
         onPress={() => navigation.navigate('AddTask', { addTask })}
       />
+
+    <View style={styles.divider} />
+
+    <Text style={styles.heading}>Mis Contactos</Text>
+    <ScrollView style={styles.list}>
+      {contacts.map(contact => (
+        <View key={contact.id} style={styles.contactRow}>
+          <Text style={styles.contactName}>{contact.name}</Text>
+          <Text style={styles.contactPhone}>{contact.phone}</Text>
+        </View>
+      ))}
+    </ScrollView>
+
+    {/*Boton para crear nuevo contacto */}
+    <Button
+    title='Crear contacto'
+    onPress={() => navigation.navigate('AddContact', { addContact })}
+    />
+
+
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container:    { flex: 1, padding: 16, backgroundColor: '#fff' },
-  filterRow:    { flexDirection: 'row', justifyContent: 'space-around', marginBottom: 12 },
-  list:         { flex: 1, marginBottom: 12 },
-  taskRow:      { flexDirection: 'row', alignItems: 'center', marginBottom: 8 },
-  icon:         { fontSize: 18, marginRight: 8 },
-  taskText:     { fontSize: 16 },
-  completedText:{ textDecorationLine: 'line-through', color: '#888' },
-  pendingText:  { color: '#000' },
+  container:      { flex: 1, padding: 16, backgroundColor: '#1C1C1C' },
+  heading:        { fontSize: 20, fontWeight: 'bold', marginBottom: 10, marginTop: 20, color: '#666' },
+  filterRow:      { flexDirection: 'row', justifyContent: 'space-around', marginBottom: 12 },
+  list:           { flex: 1, marginBottom: 12 },
+  taskRow:        { flexDirection: 'row', alignItems: 'center', marginBottom: 8 },
+  icon:           { fontSize: 18, marginRight: 8 },
+  taskText:       { fontSize: 16 },
+  completedText:  { textDecorationLine: 'line-through', color: '#888' },
+  pendingText:    { color: '#000' },
+  divider:        { height: 1, backgroundColor: '#ccc', marginVertical: 20 },
+  contactRow:     { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingVertical: 10, borderBottomWidth: 1, borderBottomColor: '#eee' },
+  contactName:    { fontSize: 16, fontWeight: 'bold', color: '#666' },
+  contactPhone:   { fontSize: 14, color: '#666' },
 });

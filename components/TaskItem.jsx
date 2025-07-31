@@ -7,4 +7,13 @@ export default function TaskItem({ task }) {
       <Text>{task.title}</Text>
     </View>
   );
+  
+}
+export default function TaskItem({ contacts }) {
+  return (
+    <View>
+      <Text>{contacts.title}</Text>
+    </View>
+  );
+  
 }
