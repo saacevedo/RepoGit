@@ -12,14 +12,11 @@ Este proyecto es un **MVP de contactos telefonicos** construido con React Native
 - **Windows PowerShell**
 
 > [!IMPORTANT]
-> ## Instalacion de mi proyecto local 
-
- - Al momento de ejecutar el proyecto
-    - vamos a la carpeta raiz del proyecto
-    - Sosteniendo la tecla SHIFT y click derecho
-    - Abrimos la opcion de PowerShell
-    - Copiamos el comando **code .** para iniciar VisualStudio
-    - Con el Comando **npm start** Generamos el codigo QR, el cual escaneamos en nuestra app EXPOGO
+> ## Instalacion de mi proyecto local
+> Al momento de ejecutar el proyecto vamos a la carpeta raiz del proyecto
+> Sosteniendo la tecla SHIFT y click derecho abrimos la opcion de PowerShell
+> Copiamos el comando **code .** para iniciar VisualStudio
+> Con el Comando **npm start** Generamos el codigo QR, el cual escaneamos en nuestra app EXPOGO
   
 > [!NOTE]
 > Se trabaja sobre el proyecto compartido del profe para guiarme.
