@@ -18,4 +18,4 @@ export default function AppNavigator() {
 }
 
 
-//poruqe no se edita
+//poruqe no se editaikjol
