@@ -16,3 +16,5 @@ export default function AppNavigator() {
     </NavigationContainer>
   );
 }
+
+//poruqe no se edita
