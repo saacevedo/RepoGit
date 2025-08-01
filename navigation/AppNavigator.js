@@ -10,11 +10,12 @@ export default function AppNavigator() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Directorio" component={ListScreen} />
+        <Stack.Screen name="Directorioo123" component={ListScreen} />
         <Stack.Screen name="AddContact" component={AddContactScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
+
 
 //poruqe no se edita
