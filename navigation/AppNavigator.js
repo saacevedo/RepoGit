@@ -10,7 +10,7 @@ export default function AppNavigator() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Directorioo1234" component={ListScreen} />
+        <Stack.Screen name="Directorio" component={ListScreen} />
         <Stack.Screen name="AddContact" component={AddContactScreen} />
       </Stack.Navigator>
     </NavigationContainer>
