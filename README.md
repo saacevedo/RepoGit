@@ -39,9 +39,7 @@ RepoGit/
 
 ├─ screens/
 
-│  ├─ TaskListScreen.jsx
-
-│  └─ AddTaskScreen.jsx
+│  ├─ ListScreen.jsx
 
 │  └─AddContactScreen.jsx
 
@@ -52,13 +50,9 @@ RepoGit/
 
 - App.js: Punto de entrada. Importa y renderiza AppNavigator.
 
-- navigation/AppNavigator.js: Stack de pantallas (Lista Crear tarea, Crea contacto).
+- navigation/AppNavigator.js: Stack de pantallas (Crea contacto).
 
 - screens/
-
--- TaskListScreen.jsx: Muestra el listado de tareas.
-
--- AddTaskScreen.jsx: Formulario para agregar nuevas tareas.
 
 -- AddContactScreen.jsx: Muestra el listado de contactos
 
