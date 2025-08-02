@@ -16,16 +16,10 @@ export default function ListScreen({ navigation }) {
     { id: 2, name: 'Miranda Arteaga', phone: '3018545878' }, 
   ]);
 
-  
-
-  
-
   // Funcion para añadir un nuevo contacto
   const addContact = (contact) => {
     setContacts(prev => [...prev, contact]);
   };
-
-  
 
   return (
     <View style={styles.container}>
@@ -45,8 +39,6 @@ export default function ListScreen({ navigation }) {
     title='Crear contacto'
     onPress={() => navigation.navigate('AddContact', { addContact })}
     />
-
-
     </View>
   );
 }

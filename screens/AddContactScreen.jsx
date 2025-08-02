@@ -15,38 +15,18 @@ export default function AddContactScreen({ navigation, route }) {
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
 
-  // const handleSave = () => {
-  //   if (name.trim() && phone.trim()) {
-  //     const newContact = {
-  //       id: Date.now(),
-  //       name: name.trim(),
-  //       phone: phone.trim(),
-  //     };
-  //     addContact(newContact);
-  //     navigation.goBack();
-  //   }
-  // };
-const handleSave = () => {
-      if (!name.trim()) {
-        Alert.alert('Error', 'Falta contacto');
-        return;
-      }
-      if(!phone.trim()) {
-        Alert.alert('Error', 'Falta telefono');
-        return;
-      }
-      const phoneRed = /^[0-9]{7,}$/;
-    if (!phoneRegex.test(phone.trim())) {
-      Alert.alert('Error', 'Telefono invalido, mínimo 7).');
-      return;
+  const handleSave = () => {
+    if (name.trim() && phone.trim()) {
+      const newContact = {
+        id: Date.now(),
+        name: name.trim(),
+        phone: phone.trim(),
+      };
+      addContact(newContact);
+      navigation.goBack();
     }
-    const newContac = {
-      id: Date.now(),
-      name: name.trim(),
-      phone: phone.trim(),
-    }
-    }
-    
+  };
+
   return (
     <View style={styles.container}>
       <Text style={styles.label}>Agregar nuevo contacto:</Text>
@@ -74,7 +54,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#fff',
+    backgroundColor: '#1C1C1C',
   },
   label: {
     fontSize: 18,
